@@ -54,6 +54,18 @@ section > h1 {
     margin-top: 2em;
 }
 
+.column {
+  float: left;
+  width: 33.33%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 #footer {
   padding: 20px 0;
   text-align: center;
@@ -68,3 +80,9 @@ section > h1 {
   display: inline-block;
   margin: 0 5px;
 }
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+} 
