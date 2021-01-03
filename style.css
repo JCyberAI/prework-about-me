@@ -42,9 +42,18 @@ body {
     color: #ffffff;
 }
 
+.container-fluid,
 .navbar-brand {
 
-    opacity: 0.5;
+    position: relative;
+    align-items: center;
+
+}
+
+.d-flex {
+
+  display: block;
+  float: inline-start;
 
 }
 
