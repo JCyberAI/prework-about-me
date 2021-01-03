@@ -42,6 +42,12 @@ body {
     color: #ffffff;
 }
 
+.navbar-brand {
+
+  opacity: 0.5;
+
+}
+
 .details {
     max-width: 38em;
     margin-left: auto;
