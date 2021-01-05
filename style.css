@@ -42,11 +42,11 @@ body {
     color: #ffffff;
 }
 
-.container-fluid,
+/* Attempting to center the NavBar Brand */
 .navbar-brand {
 
     position: relative;
-    align-items: center;
+    float: right;
 
 }
 
@@ -83,6 +83,9 @@ section > h1 {
 .column {
   float: left;
   width: 33.33%;
+  border: 5px;
+  bottom: 1;
+
 }
 
 /* Clear floats after the columns */
